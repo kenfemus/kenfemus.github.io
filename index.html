@@ -1,1 +1,135 @@
-Hello world.
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            * {
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgb(65, 65, 65);
+                -webkit-print-color-adjust: exact !important;
+                color-adjust: exact !important;
+                print-color-adjust: exact !important;
+            }
+
+            @media print {
+            @page {
+                margin-left: 0.8in;
+                margin-right: 0.8in;
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+            }
+
+            #container {
+                width: 800px;
+                margin: 0 auto;
+            }
+
+            .badge {
+                display: inline-block;
+                font-size: 14px;
+                background: gray;
+                color: #fff;
+                border-radius: 8px;
+                padding: 5px 10px;
+                margin-bottom: 3px;
+
+                &.language {
+                    background-color: #3498db;
+                }
+
+                &.db {
+                    background-color: #2ecc71;
+                }
+
+                &.framework {
+                    background-color: #34495e;
+                }
+            }
+
+            li {
+                margin: 8px;
+            }
+        </style>
+    </head>
+    <body id="container">
+    <div class="page-body">
+        <h2>Monthean Seatang</h2>
+		<p><b>Mobile:</b> 083-987-6364 | <b>Email:</b> monthean.seatang@gmail.com</p>
+		<p><b>Linkedin:</b>  <a href="https://www.linkedin.com/in/ms-0375a8200">www.linkedin.com/in/ms-0375a8200</a></p>
+		<hr/>
+        <h2>Work experience</h2>
+        <p><strong><em>TGS Enterprise Network Limited, Bangkok Thailand</em></strong></p>
+        <p><em><strong>May 2015 - June 2023 : Programmer</strong></em></p>
+        <ul class="bulleted-list">
+            <li style="list-style-type:disc"><strong>Omni Channel call center system</strong><em> - The system that integrated with VoIP, chat, email and CRM for service customer in single place.</em>
+                <ul class="bulleted-list">
+                    <li style="list-style-type:circle">Analyzed, designed and developed the system</li>
+                    <li style="list-style-type:circle">Developed backend service with Node.js</li>
+                    <li style="list-style-type:circle">Developed frontend with React (Realtime dashboard, Agent desktop, Admin setting)</li>
+                    <li style="list-style-type:circle">Researched and decided to released and deployed call center system more simply and faster by docker image</li>
+                    <li style="list-style-type:circle">Analyzed and developed customer requirement</li>
+                </ul>
+            </li>
+        </ul>
+        <ul class="bulleted-list">
+            <li style="list-style-type:disc"><strong>Cross mobile platform soft-phone(VoIP) and chat application</strong>
+                <ul class="bulleted-list">
+                    <li style="list-style-type:circle">Researched and decided to develop cross platform mobile application with React Native</li>
+                    <li style="list-style-type:circle">Developed application with React Native</li>
+                </ul>
+            </li>
+        </ul>
+        <ul class="bulleted-list">
+            <li style="list-style-type:disc">Maintained and consulted call center system </li>
+            <li style="list-style-type:disc">Maintained legacy codebase</li>
+            <li style="list-style-type:disc">Suggested and adviced with internal and external team colleagues for troubleshooting</li>
+        </ul>
+        <p><em><strong>March 2013 - May 2015 : Part-time and internship programmer</strong></em></p>
+        <ul class="bulleted-list">
+            <li style="list-style-type:disc">Developed soft-phone(VoIP) application(iOS) with Objective-C</li>
+            <li style="list-style-type:disc">Developed supervisor dashboard (a part of call center system) with PHP for backend and Jquery and Backbone.js for frontend</li>
+        </ul>
+        <hr/>
+        <h2>Skills</h2>
+        <p>
+            <span class="badge language">Javascript</span>
+            <span class="badge language">Typescript</span>
+            <span class="badge language">PHP</span>
+            <span class="badge db">Mysql</span>
+            <span class="badge db">MongoDB</span>
+            <span class="badge db">Redis</span>
+            <span class="badge framework">Node.js</span>
+            <span class="badge framework">Moleculer.js</span>
+            <span class="badge framework">Express.js</span>
+            <span class="badge framework">Socket.IO</span>
+            <span class="badge framework">React / Redux</span>
+            <span class="badge framework">React Native</span>
+            <span class="badge framework">Backbone.js</span>
+            <span class="badge framework">Docker</span>
+            <span class="badge framework">NGINX</span>
+            <span class="badge framework">Git</span>
+        <hr/>
+        <h2>Certificates</h2>
+        <p>
+            <a href="https://www.codecademy.com/profiles/systemCoder97481/certificates/f4276e8c08a3ba174ef0147deb0c3013">Learn JavaScript Unit Testing</a> 
+            <i>(Codecademy)</i>
+        </p>
+        <p>
+            <a href="https://www.codecademy.com/profiles/systemCoder97481/certificates/af00e5032d0a68cc84879983f5d8333b">Learn React</a>
+            <i>(Codecademy)</i>
+        </p>
+        <p>
+            <a href="https://www.skooldio.com/certificate/7531a5e7-c4ee-403c-99eb-847f7be3420c">Microservice Essentials</a>
+            <i>(Skooldio)</i>
+        </p>
+        <p>
+            <a href="https://www.skooldio.com/certificate/7df8de08-5916-4dd6-b109-c5254f35a85f">OOP The Right Way</a>
+            <i>(Skooldio)</i>
+        </p>
+        <hr/>
+        <h2>Education</h2>
+        <p><b>Rajamangala University of Technology Phra Nakhon</b> (2011 - 2014)</p>
+        <p>Bachelor&#x27;s Degree in Computer Science</p>
+	</div>
+</body>
+</html>
